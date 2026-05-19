@@ -1,0 +1,3172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jw Devs | Desarrollo Profesional de Software</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- En tu <head>, agrega esto -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <!-- Navbar Neón Interactivo -->
+<nav class="navbar navbar-expand-lg fixed-top" id="neonNav">
+  <div class="container">
+    <!-- Logo con efecto neón -->
+    <a class="navbar-brand neon-brand" href="#">
+      <span class="brand-icon">&lt;/&gt;</span>
+      <span class="brand-text">
+        <span class="text-cyan">JW</span><span class="text-white">Devs</span>
+      </span>
+      <span class="brand-glow"></span>
+    </a>
+
+    <!-- Toggler personalizado -->
+    <button class="neon-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#neonNavContent">
+      <span class="toggler-icon">
+        <i class="fas fa-bars"></i>
+      </span>
+    </button>
+
+    <!-- Contenido del Nav -->
+    <div class="collapse navbar-collapse" id="neonNavContent">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item">
+          <a class="nav-link neon-link active" href="#inicio">
+            <i class="fas fa-home link-icon"></i>
+            <span class="link-text">Inicio</span>
+            <span class="link-glow"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link neon-link" href="#servicios">
+            <i class="fas fa-cogs link-icon"></i>
+            <span class="link-text">Servicios</span>
+            <span class="link-glow"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link neon-link" href="#proyectos">
+            <i class="fas fa-rocket link-icon"></i>
+            <span class="link-text">Proyectos</span>
+            <span class="link-glow"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link neon-link" href="#tecnologias">
+            <i class="fas fa-microchip link-icon"></i>
+            <span class="link-text">Tecnologías</span>
+            <span class="link-glow"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link neon-link" href="#nosotros">
+            <i class="fas fa-users link-icon"></i>
+            <span class="link-text">Nosotros</span>
+            <span class="link-glow"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link neon-link btn-contact" href="#contacto">
+            <i class="fas fa-paper-plane link-icon"></i>
+            <span class="link-text">Contacto</span>
+            <span class="btn-glow"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Línea de energía en el borde inferior -->
+  <div class="energy-line"></div>
+</nav>
+
+  <!-- Hero Section -->
+ <!-- Hero Section Neón -->
+<header id="inicio" class="hero-section-neon">
+  <!-- Partículas de fondo -->
+  <div class="particles-container" id="particlesContainer"></div>
+  
+  <!-- Grid de fondo cyberpunk -->
+  <div class="cyber-grid"></div>
+  
+  <!-- Círculos de neón decorativos -->
+  <div class="neon-circle circle-1"></div>
+  <div class="neon-circle circle-2"></div>
+  <div class="neon-circle circle-3"></div>
+  
+  <div class="container h-100 position-relative">
+    <div class="row h-100 align-items-center">
+      <!-- Columna de texto -->
+      <div class="col-lg-6 hero-content">
+        <!-- Badge flotante -->
+        <div class="hero-badge mb-4">
+          <span class="badge-dot"></span>
+          <span class="badge-text">🚀 Desarrollo Web Premium</span>
+        </div>
+        
+        <!-- Título principal con efecto glitch -->
+        <h1 class="hero-title-neon mb-4">
+          Transformamos Ideas en 
+          <span class="text-gradient-neon" data-text="Realidad Digital">Realidad Digital</span>
+        </h1>
+        
+        <!-- Descripción -->
+        <p class="hero-description mb-5">
+          <span class="typing-text"></span>
+          <span class="cursor-blink">|</span>
+        </p>
+        
+        <!-- Botones CTA -->
+        <div class="d-flex gap-3 flex-wrap mb-5">
+          <a href="#contacto" class="btn-neon btn-neon-primary">
+            <span class="btn-content">
+              <i class="fas fa-paper-plane me-2"></i>
+              Contáctanos
+            </span>
+            <span class="btn-glow-effect"></span>
+          </a>
+          <a href="#servicios" class="btn-neon btn-neon-outline">
+            <span class="btn-content">
+              <i class="fas fa-arrow-right me-2"></i>
+              Ver Servicios
+            </span>
+            <span class="btn-glow-effect"></span>
+          </a>
+        </div>
+        
+        <!-- Estadísticas -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-icon-wrapper">
+              <i class="fas fa-check-circle stat-icon"></i>
+            </div>
+            <div class="stat-info">
+              <span class="stat-number" data-target="150">0</span>
+              <span class="stat-label">Proyectos Exitosos</span>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon-wrapper">
+              <i class="fas fa-certificate stat-icon"></i>
+            </div>
+            <div class="stat-info">
+              <span class="stat-number" data-target="100">0</span>
+              <span class="stat-label">Equipo Certificado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Columna de imagen/imagen 3D -->
+      <div class="col-lg-6 d-none d-lg-block hero-image-col">
+        <div class="hero-image-wrapper">
+          <!-- Imagen principal con efecto flotante -->
+          <img src="img/hero-image.png" alt="Desarrollo de software" class="hero-image-neon floating-animation-neon">
+          
+          <!-- Círculo de energía alrededor de la imagen -->
+          <div class="energy-ring"></div>
+          <div class="energy-ring energy-ring-2"></div>
+          
+          <!-- Puntos de luz orbitando -->
+          <div class="orbit-dot dot-1"></div>
+          <div class="orbit-dot dot-2"></div>
+          <div class="orbit-dot dot-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Ondas inferiores mejoradas -->
+  <div class="hero-waves-neon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color: var(--neon-cyan); stop-opacity: 0.3" />
+          <stop offset="50%" style="stop-color: var(--neon-magenta); stop-opacity: 0.3" />
+          <stop offset="100%" style="stop-color: var(--neon-cyan); stop-opacity: 0.3" />
+        </linearGradient>
+      </defs>
+      <path fill="url(#waveGradient)" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      <path fill="#0a0a0f" d="M0,224L48,229.3C96,235,192,245,288,250.7C384,245,480,235,576,229.3C672,235,768,245,864,240C960,235,1056,229,1152,224C1248,219,1344,213,1392,208L1440,203L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+  </div>
+</header>
+
+
+<!-- Servicios Section Neón -->
+<section id="servicios" class="services-section-neon">
+  <!-- Fondo con grid -->
+  <div class="services-grid-bg"></div>
+  
+  <!-- Partículas flotantes -->
+  <div class="services-particles" id="servicesParticles"></div>
+  
+  <div class="container position-relative">
+    <!-- Header de la sección -->
+    <div class="text-center mb-5 pt-5">
+      <span class="section-badge-neon">
+        <span class="badge-dot-left"></span>
+        NUESTROS SERVICIOS
+        <span class="badge-dot-right"></span>
+      </span>
+      <h2 class="section-title-neon">
+        Soluciones <span class="text-highlight">Digitales</span> Integrales
+      </h2>
+      <div class="title-underline"></div>
+      <p class="section-subtitle-neon">
+        Ofrecemos un portafolio completo de servicios tecnológicos diseñados para cubrir todas las necesidades de tu negocio en el mundo digital.
+      </p>
+    </div>
+    
+    <!-- Grid de servicios -->
+    <div class="row g-4">
+      <!-- Desarrollo Web -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card-neon" data-service="web">
+          <div class="card-inner">
+            <!-- Icono flotante -->
+            <div class="service-icon-wrapper">
+              <div class="service-icon-bg bg-cyan"></div>
+              <i class="fas fa-laptop-code service-icon"></i>
+              <div class="icon-orbit-ring"></div>
+            </div>
+            
+            <!-- Contenido -->
+            <h4 class="service-title">Desarrollo Web Avanzado</h4>
+            <p class="service-description">Creamos experiencias web excepcionales con las últimas tecnologías del mercado.</p>
+            
+            <!-- Lista de características -->
+            <ul class="service-features-neon">
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Aplicaciones web progresivas (PWA)</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Portales corporativos</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Sistemas de gestión de contenido</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Plataformas e-learning</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Soluciones empresariales</span>
+              </li>
+            </ul>
+            
+            <!-- Botón saber más -->
+            <a href="#contacto" class="service-link-neon">
+              <span>Saber más</span>
+              <i class="fas fa-arrow-right link-arrow"></i>
+              <span class="link-glow-line"></span>
+            </a>
+          </div>
+          <!-- Borde neón animado -->
+          <div class="card-border-glow"></div>
+        </div>
+      </div>
+      
+      <!-- Apps Móviles -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card-neon" data-service="mobile">
+          <div class="card-inner">
+            <div class="service-icon-wrapper">
+              <div class="service-icon-bg bg-magenta"></div>
+              <i class="fas fa-mobile-alt service-icon"></i>
+              <div class="icon-orbit-ring"></div>
+            </div>
+            
+            <h4 class="service-title">Desarrollo Móvil</h4>
+            <p class="service-description">Aplicaciones nativas e híbridas que ofrecen experiencias de usuario excepcionales.</p>
+            
+            <ul class="service-features-neon">
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Apps iOS y Android nativas</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Desarrollo multiplataforma</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Integración con APIs</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Aplicaciones empresariales</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Juegos móviles</span>
+              </li>
+            </ul>
+            
+            <a href="#contacto" class="service-link-neon">
+              <span>Saber más</span>
+              <i class="fas fa-arrow-right link-arrow"></i>
+              <span class="link-glow-line"></span>
+            </a>
+          </div>
+          <div class="card-border-glow"></div>
+        </div>
+      </div>
+      
+      <!-- UI/UX Design -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card-neon" data-service="design">
+          <div class="card-inner">
+            <div class="service-icon-wrapper">
+              <div class="service-icon-bg bg-yellow"></div>
+              <i class="fas fa-paint-brush service-icon"></i>
+              <div class="icon-orbit-ring"></div>
+            </div>
+            
+            <h4 class="service-title">Diseño UI/UX</h4>
+            <p class="service-description">Diseños centrados en el usuario que mejoran la interacción y conversión.</p>
+            
+            <ul class="service-features-neon">
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Investigación de usuarios</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Prototipado interactivo</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Diseño de interfaces</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Pruebas de usabilidad</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Sistemas de diseño</span>
+              </li>
+            </ul>
+            
+            <a href="#contacto" class="service-link-neon">
+              <span>Saber más</span>
+              <i class="fas fa-arrow-right link-arrow"></i>
+              <span class="link-glow-line"></span>
+            </a>
+          </div>
+          <div class="card-border-glow"></div>
+        </div>
+      </div>
+      
+      <!-- Backend -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card-neon" data-service="backend">
+          <div class="card-inner">
+            <div class="service-icon-wrapper">
+              <div class="service-icon-bg bg-green"></div>
+              <i class="fas fa-server service-icon"></i>
+              <div class="icon-orbit-ring"></div>
+            </div>
+            
+            <h4 class="service-title">Backend & APIs</h4>
+            <p class="service-description">Infraestructura robusta y escalable para soportar tus aplicaciones.</p>
+            
+            <ul class="service-features-neon">
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>APIs RESTful y GraphQL</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Microservicios</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Bases de datos SQL/NoSQL</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Autenticación y seguridad</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Integración de sistemas</span>
+              </li>
+            </ul>
+            
+            <a href="#contacto" class="service-link-neon">
+              <span>Saber más</span>
+              <i class="fas fa-arrow-right link-arrow"></i>
+              <span class="link-glow-line"></span>
+            </a>
+          </div>
+          <div class="card-border-glow"></div>
+        </div>
+      </div>
+      
+      <!-- Cloud -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card-neon" data-service="cloud">
+          <div class="card-inner">
+            <div class="service-icon-wrapper">
+              <div class="service-icon-bg bg-purple"></div>
+              <i class="fas fa-cloud service-icon"></i>
+              <div class="icon-orbit-ring"></div>
+            </div>
+            
+            <h4 class="service-title">Cloud Computing</h4>
+            <p class="service-description">Soluciones en la nube para mayor escalabilidad y disponibilidad.</p>
+            
+            <ul class="service-features-neon">
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Migración a la nube</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Arquitectura serverless</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>DevOps y CI/CD</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Monitoreo y logging</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Soluciones híbridas</span>
+              </li>
+            </ul>
+            
+            <a href="#contacto" class="service-link-neon">
+              <span>Saber más</span>
+              <i class="fas fa-arrow-right link-arrow"></i>
+              <span class="link-glow-line"></span>
+            </a>
+          </div>
+          <div class="card-border-glow"></div>
+        </div>
+      </div>
+      
+      <!-- IA y Data -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card-neon" data-service="ai">
+          <div class="card-inner">
+            <div class="service-icon-wrapper">
+              <div class="service-icon-bg bg-gradient-rainbow"></div>
+              <i class="fas fa-brain service-icon"></i>
+              <div class="icon-orbit-ring"></div>
+            </div>
+            
+            <h4 class="service-title">Inteligencia Artificial</h4>
+            <p class="service-description">Lleva tu negocio al siguiente nivel con soluciones de IA y análisis de datos.</p>
+            
+            <ul class="service-features-neon">
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Machine Learning</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Procesamiento de lenguaje</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Visión por computadora</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Big Data & Analytics</span>
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <span>Chatbots inteligentes</span>
+              </li>
+            </ul>
+            
+            <a href="#contacto" class="service-link-neon">
+              <span>Saber más</span>
+              <i class="fas fa-arrow-right link-arrow"></i>
+              <span class="link-glow-line"></span>
+            </a>
+          </div>
+          <div class="card-border-glow"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- Proceso de Trabajo Neón -->
+<section class="process-section-neon">
+  <!-- Líneas de conexión en el fondo -->
+  <div class="process-connections">
+    <svg class="connection-lines" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color: var(--neon-cyan); stop-opacity: 0" />
+          <stop offset="30%" style="stop-color: var(--neon-cyan); stop-opacity: 0.5" />
+          <stop offset="50%" style="stop-color: var(--neon-magenta); stop-opacity: 0.8" />
+          <stop offset="70%" style="stop-color: var(--neon-cyan); stop-opacity: 0.5" />
+          <stop offset="100%" style="stop-color: var(--neon-cyan); stop-opacity: 0" />
+        </linearGradient>
+      </defs>
+      <line x1="0%" y1="50%" x2="100%" y2="50%" stroke="url(#lineGradient)" stroke-width="2" />
+    </svg>
+  </div>
+
+  <!-- Partículas energéticas -->
+  <div class="energy-particles" id="energyParticles"></div>
+
+  <div class="container position-relative">
+    <!-- Header -->
+    <div class="text-center mb-5 pt-5">
+      <span class="section-badge-neon">
+        <span class="badge-dot-left"></span>
+        NUESTRO PROCESO
+        <span class="badge-dot-right"></span>
+      </span>
+      <h2 class="section-title-neon">
+        Cómo <span class="text-highlight">Trabajamos</span>
+      </h2>
+      <div class="title-underline"></div>
+      <p class="section-subtitle-neon">
+        Metodología ágil y transparente que garantiza el éxito de tus proyectos digitales.
+      </p>
+    </div>
+
+    <!-- Timeline del Proceso -->
+    <div class="process-timeline">
+      <div class="row g-4">
+        <!-- Paso 1: Descubrimiento -->
+        <div class="col-md-6 col-lg-3">
+          <div class="process-step-neon" data-step="1">
+            <!-- Conexión con el siguiente paso -->
+            <div class="step-connector">
+              <div class="connector-line"></div>
+              <div class="connector-arrow">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+            
+            <!-- Número del paso -->
+            <div class="step-number-wrapper">
+              <div class="step-number-neon">
+                <span class="number-text">I</span>
+                <div class="number-glow"></div>
+              </div>
+              <div class="step-ring ring-1"></div>
+              <div class="step-ring ring-2"></div>
+              <div class="step-ring ring-3"></div>
+            </div>
+            
+            <!-- Contenido -->
+            <div class="step-content">
+              <div class="step-icon-wrapper">
+                <i class="fas fa-search step-icon"></i>
+              </div>
+              <h4 class="step-title">Descubrimiento</h4>
+              <p class="step-description">
+                Analizamos tus necesidades y objetivos para definir los requerimientos y funcionalidades del proyecto.
+              </p>
+              <ul class="step-details">
+                <li><span class="detail-dot"></span> Análisis de requisitos</li>
+                <li><span class="detail-dot"></span> Investigación de mercado</li>
+                <li><span class="detail-dot"></span> Definición de objetivos</li>
+              </ul>
+            </div>
+            
+            <!-- Barra de progreso -->
+            <div class="step-progress">
+              <div class="progress-fill" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paso 2: Diseño -->
+        <div class="col-md-6 col-lg-3">
+          <div class="process-step-neon" data-step="2">
+            <div class="step-connector">
+              <div class="connector-line"></div>
+              <div class="connector-arrow">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+            
+            <div class="step-number-wrapper">
+              <div class="step-number-neon">
+                <span class="number-text">II</span>
+                <div class="number-glow"></div>
+              </div>
+              <div class="step-ring ring-1"></div>
+              <div class="step-ring ring-2"></div>
+              <div class="step-ring ring-3"></div>
+            </div>
+            
+            <div class="step-content">
+              <div class="step-icon-wrapper">
+                <i class="fas fa-pencil-ruler step-icon"></i>
+              </div>
+              <h4 class="step-title">Diseño</h4>
+              <p class="step-description">
+                Creamos prototipos y diseños centrados en la experiencia de usuario, interfaces intuitivas y funcionales.
+              </p>
+              <ul class="step-details">
+                <li><span class="detail-dot"></span> Wireframes & mockups</li>
+                <li><span class="detail-dot"></span> Diseño UI/UX</li>
+                <li><span class="detail-dot"></span> Prototipado interactivo</li>
+              </ul>
+            </div>
+            
+            <div class="step-progress">
+              <div class="progress-fill" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paso 3: Desarrollo -->
+        <div class="col-md-6 col-lg-3">
+          <div class="process-step-neon" data-step="3">
+            <div class="step-connector">
+              <div class="connector-line"></div>
+              <div class="connector-arrow">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+            
+            <div class="step-number-wrapper">
+              <div class="step-number-neon">
+                <span class="number-text">III</span>
+                <div class="number-glow"></div>
+              </div>
+              <div class="step-ring ring-1"></div>
+              <div class="step-ring ring-2"></div>
+              <div class="step-ring ring-3"></div>
+            </div>
+            
+            <div class="step-content">
+              <div class="step-icon-wrapper">
+                <i class="fas fa-code step-icon"></i>
+              </div>
+              <h4 class="step-title">Desarrollo</h4>
+              <p class="step-description">
+                Implementamos las soluciones con metodologías ágiles, reuniones constantes y de la mano del cliente.
+              </p>
+              <ul class="step-details">
+                <li><span class="detail-dot"></span> Desarrollo ágil</li>
+                <li><span class="detail-dot"></span> Sprints semanales</li>
+                <li><span class="detail-dot"></span> Control de calidad</li>
+              </ul>
+            </div>
+            
+            <div class="step-progress">
+              <div class="progress-fill" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paso 4: Lanzamiento -->
+        <div class="col-md-6 col-lg-3">
+          <div class="process-step-neon" data-step="4">
+            <div class="step-number-wrapper">
+              <div class="step-number-neon">
+                <span class="number-text">IV</span>
+                <div class="number-glow"></div>
+              </div>
+              <div class="step-ring ring-1"></div>
+              <div class="step-ring ring-2"></div>
+              <div class="step-ring ring-3"></div>
+            </div>
+            
+            <div class="step-content">
+              <div class="step-icon-wrapper">
+                <i class="fas fa-rocket step-icon"></i>
+              </div>
+              <h4 class="step-title">Lanzamiento</h4>
+              <p class="step-description">
+                Desplegamos el producto y brindamos soporte continuo para su evolución y buena escalabilidad.
+              </p>
+              <ul class="step-details">
+                <li><span class="detail-dot"></span> Despliegue seguro</li>
+                <li><span class="detail-dot"></span> Monitoreo continuo</li>
+                <li><span class="detail-dot"></span> Soporte post-lanzamiento</li>
+              </ul>
+            </div>
+            
+            <div class="step-progress">
+              <div class="progress-fill" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Proyectos Section Neón -->
+<section id="proyectos" class="projects-section-neon">
+  <!-- Fondo con partículas -->
+  <div class="projects-bg-particles" id="projectsParticles"></div>
+  
+  <!-- Grid decorativo -->
+  <div class="projects-grid-bg"></div>
+  
+  <div class="container position-relative">
+    <!-- Header -->
+    <div class="text-center mb-5 pt-5">
+      <span class="section-badge-neon">
+        <span class="badge-dot-left"></span>
+        PORTAFOLIO
+        <span class="badge-dot-right"></span>
+      </span>
+      <h2 class="section-title-neon">
+        Proyectos <span class="text-highlight">Destacados</span>
+      </h2>
+      <div class="title-underline"></div>
+      <p class="section-subtitle-neon">
+        Algunos de los trabajos que hemos realizado para nuestros clientes satisfechos.
+      </p>
+    </div>
+
+    <!-- Filtros de proyectos -->
+    <div class="project-filters mb-5">
+      <button class="filter-btn active" data-filter="all">
+        <i class="fas fa-th-large me-2"></i>Todos
+      </button>
+      <button class="filter-btn" data-filter="web">
+        <i class="fas fa-globe me-2"></i>Web
+      </button>
+      <button class="filter-btn" data-filter="mobile">
+        <i class="fas fa-mobile-alt me-2"></i>Móvil
+      </button>
+      <button class="filter-btn" data-filter="ecommerce">
+        <i class="fas fa-shopping-cart me-2"></i>E-commerce
+      </button>
+    </div>
+
+    <!-- Grid de proyectos -->
+    <div class="row g-4 projects-grid">
+      <!-- Proyecto 1: ZEROX -->
+      <div class="col-md-6 col-lg-4 project-item" data-category="web ecommerce">
+        <div class="project-card-neon">
+          <!-- Imagen del proyecto -->
+          <div class="project-image-wrapper">
+            <img src="img/projects/zerox.png" alt="ZEROX - Tienda de Videojuegos" class="project-image">
+            
+            <!-- Overlay con efectos -->
+            <div class="project-overlay-neon">
+              <div class="overlay-content">
+                <span class="overlay-category">E-commerce</span>
+                <a href="https://zerox.com.pe/" class="overlay-link" target="_blank">
+                  <span>Ver Proyecto</span>
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+              <div class="overlay-scan-line"></div>
+            </div>
+            
+            <!-- Badge flotante -->
+            <div class="project-year-badge">2025</div>
+            
+            <!-- Tecnologías flotantes -->
+            <div class="tech-float tech-1">HTML</div>
+            <div class="tech-float tech-2">PHP</div>
+          </div>
+          
+          <!-- Contenido -->
+          <div class="project-content">
+            <div class="project-header">
+              <h5 class="project-title">ZEROX | Perú</h5>
+              <span class="project-category-badge">Videojuegos</span>
+            </div>
+            
+            <p class="project-description">
+              Tienda de videojuegos, consolas y accesorios. Página web completa y sistema de gestión de inventario, stock, ingresos y egresos.
+            </p>
+            
+            <!-- Meta información -->
+            <div class="project-meta">
+              <div class="meta-item">
+                <i class="fas fa-user meta-icon"></i>
+                <div>
+                  <span class="meta-label">Cliente</span>
+                  <span class="meta-value">Dan Quispe C.</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <i class="fas fa-calendar meta-icon"></i>
+                <div>
+                  <span class="meta-label">Año</span>
+                  <span class="meta-value">2024-2025</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Tech stack -->
+            <div class="tech-stack">
+              <span class="tech-tag" data-tech="html">HTML</span>
+              <span class="tech-tag" data-tech="css">CSS</span>
+              <span class="tech-tag" data-tech="php">PHP</span>
+              <span class="tech-tag" data-tech="sql">SQL</span>
+            </div>
+          </div>
+          
+          <!-- Borde neón animado -->
+          <div class="card-neon-border"></div>
+        </div>
+      </div>
+
+      <!-- Proyecto 2: Moromex -->
+      <div class="col-md-6 col-lg-4 project-item" data-category="mobile ecommerce">
+        <div class="project-card-neon">
+          <div class="project-image-wrapper">
+            <img src="img/projects/moromex.png" alt="Moromex - App E-commerce" class="project-image">
+            
+            <div class="project-overlay-neon">
+              <div class="overlay-content">
+                <span class="overlay-category">App Móvil</span>
+                <a href="https://play.google.com/store/apps/details?id=com.belsoftbo.moromex&hl=es_EC&pli=1" class="overlay-link" target="_blank">
+                  <span>Ver en Play Store</span>
+                  <i class="fab fa-google-play"></i>
+                </a>
+              </div>
+              <div class="overlay-scan-line"></div>
+            </div>
+            
+            <div class="project-year-badge">2024</div>
+            <div class="tech-float tech-1">Flutter</div>
+            <div class="tech-float tech-2">Firebase</div>
+          </div>
+          
+          <div class="project-content">
+            <div class="project-header">
+              <h5 class="project-title">Moromex | México</h5>
+              <span class="project-category-badge">E-commerce</span>
+            </div>
+            
+            <p class="project-description">
+              Aplicación móvil destinada al ecommerce en México. Compra y venta de ropas y accesorios con experiencia nativa.
+            </p>
+            
+            <div class="project-meta">
+              <div class="meta-item">
+                <i class="fas fa-user meta-icon"></i>
+                <div>
+                  <span class="meta-label">Cliente</span>
+                  <span class="meta-value">Moromex</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <i class="fas fa-calendar meta-icon"></i>
+                <div>
+                  <span class="meta-label">Año</span>
+                  <span class="meta-value">2024</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="tech-stack">
+              <span class="tech-tag" data-tech="flutter">Flutter</span>
+              <span class="tech-tag" data-tech="firebase">Firebase</span>
+              <span class="tech-tag" data-tech="api">Google Fit</span>
+            </div>
+          </div>
+          
+          <div class="card-neon-border"></div>
+        </div>
+      </div>
+
+      <!-- Proyecto 3: Ckapin Tickets -->
+      <div class="col-md-6 col-lg-4 project-item" data-category="web ecommerce">
+        <div class="project-card-neon">
+          <div class="project-image-wrapper">
+            <img src="img/projects/ckapin.png" alt="Ckapin Tickets - Ticketera" class="project-image">
+            
+            <div class="project-overlay-neon">
+              <div class="overlay-content">
+                <span class="overlay-category">Web App</span>
+                <a href="https://ckapintickets.com/" class="overlay-link" target="_blank">
+                  <span>Ver Proyecto</span>
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+              <div class="overlay-scan-line"></div>
+            </div>
+            
+            <div class="project-year-badge">2025</div>
+            <div class="tech-float tech-1">PHP</div>
+            <div class="tech-float tech-2">MySQL</div>
+          </div>
+          
+          <div class="project-content">
+            <div class="project-header">
+              <h5 class="project-title">Ckapin Tickets | Chile</h5>
+              <span class="project-category-badge">Turismo</span>
+            </div>
+            
+            <p class="project-description">
+              Ticketera chilena para venta de tickets a destinos turísticos. Pasarela de pagos, facturación electrónica, registro de ventas y reportes.
+            </p>
+            
+            <div class="project-meta">
+              <div class="meta-item">
+                <i class="fas fa-user meta-icon"></i>
+                <div>
+                  <span class="meta-label">Cliente</span>
+                  <span class="meta-value">Ckapin Tickets</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <i class="fas fa-calendar meta-icon"></i>
+                <div>
+                  <span class="meta-label">Año</span>
+                  <span class="meta-value">2025</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="tech-stack">
+              <span class="tech-tag" data-tech="php">PHP</span>
+              <span class="tech-tag" data-tech="mysql">MySQL</span>
+              <span class="tech-tag" data-tech="bootstrap">Bootstrap</span>
+              <span class="tech-tag" data-tech="git">Git</span>
+              <span class="tech-tag" data-tech="html">HTML</span>
+            </div>
+          </div>
+          
+          <div class="card-neon-border"></div>
+        </div>
+      </div>
+
+      <!-- Proyecto 4: Atlas CC -->
+      <div class="col-md-6 col-lg-4 project-item" data-category="web">
+        <div class="project-card-neon">
+          <div class="project-image-wrapper">
+            <img src="img/projects/atlas.png" alt="ATLAS CC - Quiropraxia" class="project-image">
+            
+            <div class="project-overlay-neon">
+              <div class="overlay-content">
+                <span class="overlay-category">Web App</span>
+                <a href="https://atlaswebcc-1.web.app/" class="overlay-link" target="_blank">
+                  <span>Ver Proyecto</span>
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+              <div class="overlay-scan-line"></div>
+            </div>
+            
+            <div class="project-year-badge">2024</div>
+            <div class="tech-float tech-1">Vue.js</div>
+            <div class="tech-float tech-2">Firebase</div>
+          </div>
+          
+          <div class="project-content">
+            <div class="project-header">
+              <h5 class="project-title">ATLAS CC | USA</h5>
+              <span class="project-category-badge">Salud</span>
+            </div>
+            
+            <p class="project-description">
+              Página web con sistema para quiropráctica estadounidense enfocada en recuperación de lesiones y rehabilitaciones post-accidentes.
+            </p>
+            
+            <div class="project-meta">
+              <div class="meta-item">
+                <i class="fas fa-user meta-icon"></i>
+                <div>
+                  <span class="meta-label">Cliente</span>
+                  <span class="meta-value">Atlas CC</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <i class="fas fa-calendar meta-icon"></i>
+                <div>
+                  <span class="meta-label">Año</span>
+                  <span class="meta-value">2024</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="tech-stack">
+              <span class="tech-tag" data-tech="vue">Vue.js</span>
+              <span class="tech-tag" data-tech="javascript">JavaScript</span>
+              <span class="tech-tag" data-tech="css">CSS</span>
+              <span class="tech-tag" data-tech="firebase">Firebase</span>
+            </div>
+          </div>
+          
+          <div class="card-neon-border"></div>
+        </div>
+      </div>
+
+      <!-- Proyecto 5: Shines Pro -->
+      <div class="col-md-6 col-lg-4 project-item" data-category="web">
+        <div class="project-card-neon">
+          <div class="project-image-wrapper">
+            <img src="img/projects/shine.png" alt="Shines Pro - Servicio de Limpieza" class="project-image">
+            
+            <div class="project-overlay-neon">
+              <div class="overlay-content">
+                <span class="overlay-category">Landing Page</span>
+                <a href="https://shinespro-633d8.web.app/" class="overlay-link" target="_blank">
+                  <span>Ver Proyecto</span>
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+              <div class="overlay-scan-line"></div>
+            </div>
+            
+            <div class="project-year-badge">2024</div>
+            <div class="tech-float tech-1">React</div>
+            <div class="tech-float tech-2">Twilio</div>
+          </div>
+          
+          <div class="project-content">
+            <div class="project-header">
+              <h5 class="project-title">Shines Pro | USA</h5>
+              <span class="project-category-badge">Limpieza</span>
+            </div>
+            
+            <p class="project-description">
+              Landing Page para empresa de limpieza de centros de construcción y empresas industriales. Sistema de mensajería SMS integrado.
+            </p>
+            
+            <div class="project-meta">
+              <div class="meta-item">
+                <i class="fas fa-user meta-icon"></i>
+                <div>
+                  <span class="meta-label">Cliente</span>
+                  <span class="meta-value">Shines Pro</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <i class="fas fa-calendar meta-icon"></i>
+                <div>
+                  <span class="meta-label">Año</span>
+                  <span class="meta-value">2024</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="tech-stack">
+              <span class="tech-tag" data-tech="react">React</span>
+              <span class="tech-tag" data-tech="javascript">JavaScript</span>
+              <span class="tech-tag" data-tech="firebase">Firebase</span>
+              <span class="tech-tag" data-tech="twilio">Twilio</span>
+            </div>
+          </div>
+          
+          <div class="card-neon-border"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Tecnologías Section Neón -->
+<section id="tecnologias" class="tech-section-neon">
+  <!-- Circuito de fondo -->
+  <div class="circuit-bg">
+    <svg class="circuit-lines" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="circuitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color: var(--neon-cyan); stop-opacity: 0.1" />
+          <stop offset="50%" style="stop-color: var(--neon-magenta); stop-opacity: 0.15" />
+          <stop offset="100%" style="stop-color: var(--neon-cyan); stop-opacity: 0.1" />
+        </linearGradient>
+      </defs>
+      <path d="M0,200 Q100,180 200,200 T400,200 T600,200 T800,200 T1000,200 T1200,200 T1400,200" stroke="url(#circuitGrad)" fill="none" stroke-width="1" />
+      <path d="M0,400 Q100,380 200,400 T400,400 T600,400 T800,400 T1000,400 T1200,400 T1400,400" stroke="url(#circuitGrad)" fill="none" stroke-width="1" />
+      <circle cx="200" cy="200" r="3" fill="var(--neon-cyan)" opacity="0.3" />
+      <circle cx="600" cy="200" r="3" fill="var(--neon-magenta)" opacity="0.3" />
+      <circle cx="1000" cy="200" r="3" fill="var(--neon-cyan)" opacity="0.3" />
+      <circle cx="400" cy="400" r="3" fill="var(--neon-magenta)" opacity="0.3" />
+      <circle cx="800" cy="400" r="3" fill="var(--neon-cyan)" opacity="0.3" />
+    </svg>
+  </div>
+
+  <div class="container position-relative">
+    <!-- Header -->
+    <div class="text-center mb-5 pt-5">
+      <span class="section-badge-neon">
+        <span class="badge-dot-left"></span>
+        TECNOLOGÍAS
+        <span class="badge-dot-right"></span>
+      </span>
+      <h2 class="section-title-neon">
+        Nuestro <span class="text-highlight">Stack</span> Tecnológico
+      </h2>
+      <div class="title-underline"></div>
+      <p class="section-subtitle-neon">
+        Utilizamos las mejores herramientas y frameworks para garantizar resultados de alta calidad.
+      </p>
+    </div>
+
+    <!-- Grid de categorías principales -->
+    <div class="row g-4">
+      <!-- Frontend -->
+      <div class="col-md-6 col-lg-3">
+        <div class="tech-category-neon" data-category="frontend">
+          <div class="category-header">
+            <div class="category-icon-wrapper">
+              <div class="icon-hexagon">
+                <i class="fas fa-desktop category-icon"></i>
+              </div>
+              <div class="icon-pulse-ring"></div>
+            </div>
+            <h4 class="category-title">Frontend</h4>
+            <div class="category-line"></div>
+          </div>
+          
+          <ul class="tech-list-neon">
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/react.png" alt="React" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">React.js</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 95%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/vue.png" alt="Vue.js" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Vue.js</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 90%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/angular.png" alt="Angular" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Angular</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 85%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/typescript.png" alt="TypeScript" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">TypeScript</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 88%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/tailwind.png" alt="Tailwind" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Tailwind CSS</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 92%"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="col-md-6 col-lg-3">
+        <div class="tech-category-neon" data-category="backend">
+          <div class="category-header">
+            <div class="category-icon-wrapper">
+              <div class="icon-hexagon">
+                <i class="fas fa-server category-icon"></i>
+              </div>
+              <div class="icon-pulse-ring"></div>
+            </div>
+            <h4 class="category-title">Backend</h4>
+            <div class="category-line"></div>
+          </div>
+          
+          <ul class="tech-list-neon">
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/nodejs.png" alt="Node.js" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Node.js</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 90%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/laravel.png" alt="Laravel" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Laravel</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 88%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/django.png" alt="Django" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Django</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 82%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/spring.png" alt="Spring" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Spring Boot</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 80%"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Mobile -->
+      <div class="col-md-6 col-lg-3">
+        <div class="tech-category-neon" data-category="mobile">
+          <div class="category-header">
+            <div class="category-icon-wrapper">
+              <div class="icon-hexagon">
+                <i class="fas fa-mobile-alt category-icon"></i>
+              </div>
+              <div class="icon-pulse-ring"></div>
+            </div>
+            <h4 class="category-title">Mobile</h4>
+            <div class="category-line"></div>
+          </div>
+          
+          <ul class="tech-list-neon">
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/flutter.png" alt="Flutter" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Flutter</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 93%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/react-native.png" alt="React Native" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">React Native</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 85%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/kotlin.png" alt="Kotlin" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Kotlin</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 78%"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DevOps & Cloud -->
+      <div class="col-md-6 col-lg-3">
+        <div class="tech-category-neon" data-category="devops">
+          <div class="category-header">
+            <div class="category-icon-wrapper">
+              <div class="icon-hexagon">
+                <i class="fas fa-cloud category-icon"></i>
+              </div>
+              <div class="icon-pulse-ring"></div>
+            </div>
+            <h4 class="category-title">DevOps & Cloud</h4>
+            <div class="category-line"></div>
+          </div>
+          
+          <ul class="tech-list-neon">
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/aws.png" alt="AWS" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">AWS</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 87%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/azure.png" alt="Azure" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Azure</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 80%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/docker.png" alt="Docker" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Docker</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 90%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/firebase.png" alt="Firebase" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Firebase</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 88%"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tech-item">
+              <div class="tech-icon-container">
+                <img src="img/tech/terraform.png" alt="Terraform" class="tech-logo-neon">
+                <div class="tech-glow"></div>
+              </div>
+              <div class="tech-info">
+                <span class="tech-name">Terraform</span>
+                <div class="tech-level">
+                  <div class="level-bar" style="width: 75%"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Otras tecnologías -->
+    <div class="other-tech-section mt-5">
+      <div class="tech-card-other">
+        <div class="other-tech-header">
+          <i class="fas fa-tools header-icon"></i>
+          <h4 class="other-title">Otras Tecnologías que Utilizamos</h4>
+          <div class="header-line"></div>
+        </div>
+        
+        <div class="tech-cloud">
+          <div class="tech-badge-neon" data-weight="heavy">
+            <img src="img/tech/mongodb.png" alt="MongoDB" class="badge-logo">
+            <span>MongoDB</span>
+          </div>
+          <div class="tech-badge-neon" data-weight="heavy">
+            <img src="img/tech/postgresql.png" alt="PostgreSQL" class="badge-logo">
+            <span>PostgreSQL</span>
+          </div>
+          <div class="tech-badge-neon" data-weight="medium">
+            <img src="img/tech/graphql.png" alt="GraphQL" class="badge-logo">
+            <span>GraphQL</span>
+          </div>
+          <div class="tech-badge-neon" data-weight="heavy">
+            <img src="img/tech/firebase.png" alt="Firebase" class="badge-logo">
+            <span>Firebase</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Nosotros Section Neón -->
+<section id="nosotros" class="about-section-neon">
+  <!-- Fondo con efecto de energía -->
+  <div class="energy-bg">
+    <div class="energy-orb orb-1"></div>
+    <div class="energy-orb orb-2"></div>
+    <div class="energy-orb orb-3"></div>
+  </div>
+
+  <div class="container position-relative">
+    <div class="row align-items-center">
+      <!-- Columna de texto -->
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <!-- Badge -->
+        <span class="section-badge-neon mb-4">
+          <span class="badge-dot-left"></span>
+          SOBRE NOSOTROS
+          <span class="badge-dot-right"></span>
+        </span>
+        
+        <!-- Título -->
+        <h2 class="about-title-neon mb-4">
+          Expertos en <span class="text-highlight">Soluciones Digitales</span>
+        </h2>
+        <div class="title-underline-left mb-4"></div>
+        
+        <!-- Descripción -->
+        <p class="about-description mb-5">
+          En <span class="brand-highlight">JW Devs</span> combinamos creatividad, tecnología y experiencia para ofrecer soluciones que realmente marcan la diferencia en la era digital.
+        </p>
+        
+        <!-- Features -->
+        <div class="about-features-neon">
+          <!-- Feature 1 -->
+          <div class="feature-card-neon" data-aos="fade-right">
+            <div class="feature-icon-container">
+              <div class="feature-hex">
+                <i class="fas fa-medal feature-icon"></i>
+              </div>
+              <div class="feature-ring"></div>
+            </div>
+            <div class="feature-content">
+              <h4 class="feature-title">3+ Años de Experiencia</h4>
+              <p class="feature-text">Ayudando a empresas a transformarse digitalmente desde 2022 con resultados comprobados.</p>
+              <div class="feature-stat">
+                <span class="stat-highlight">2022</span>
+                <span class="stat-arrow">→</span>
+                <span class="stat-highlight">2025</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Feature 2 -->
+          <div class="feature-card-neon" data-aos="fade-right" data-aos-delay="100">
+            <div class="feature-icon-container">
+              <div class="feature-hex hex-magenta">
+                <i class="fas fa-users feature-icon"></i>
+              </div>
+              <div class="feature-ring ring-magenta"></div>
+            </div>
+            <div class="feature-content">
+              <h4 class="feature-title">Equipo Multidisciplinario</h4>
+              <p class="feature-text">Profesionales especializados con certificaciones que validan su trabajo y experiencia en diversas áreas.</p>
+              <div class="feature-tags">
+                <span class="feature-tag">Devs</span>
+                <span class="feature-tag">Diseñadores</span>
+                <span class="feature-tag">QA</span>
+                <span class="feature-tag">DevOps</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Feature 3 -->
+          <div class="feature-card-neon" data-aos="fade-right" data-aos-delay="200">
+            <div class="feature-icon-container">
+              <div class="feature-hex hex-yellow">
+                <i class="fas fa-globe-americas feature-icon"></i>
+              </div>
+              <div class="feature-ring ring-yellow"></div>
+            </div>
+            <div class="feature-content">
+              <h4 class="feature-title">Clientes en 5 Países</h4>
+              <p class="feature-text">Hemos entregado soluciones exitosas a empresas en diferentes países de América.</p>
+              <div class="countries-list">
+                <span class="country-flag" title="Perú">🇵🇪</span>
+                <span class="country-flag" title="México">🇲🇽</span>
+                <span class="country-flag" title="Chile">🇨🇱</span>
+                <span class="country-flag" title="Estados Unidos">🇺🇸</span>
+                <span class="country-flag" title="Bolivia">🇧🇴</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Botón CTA -->
+        <a href="#equipo" id="toggleTeamBtn" class="btn-neon btn-neon-primary mt-4">
+          <span class="btn-content">
+            <i class="fas fa-users me-2"></i>
+            Conoce nuestro equipo
+          </span>
+          <span class="btn-glow-effect"></span>
+        </a>
+      </div>
+      
+      <!-- Columna de imagen -->
+      <div class="col-lg-6">
+        <div class="about-image-wrapper">
+          <!-- Imagen principal -->
+          <div class="about-image-frame">
+            <img src="img/team/collage.jpg" alt="Nuestro equipo JW Devs" class="about-image-neon">
+            
+            <!-- Overlay con scanlines -->
+            <div class="image-overlay-scan"></div>
+            
+            <!-- Esquinas decorativas -->
+            <div class="corner corner-tl"></div>
+            <div class="corner corner-tr"></div>
+            <div class="corner corner-bl"></div>
+            <div class="corner corner-br"></div>
+          </div>
+          
+          <!-- Badge de experiencia -->
+          <div class="experience-badge-neon">
+            <div class="badge-content">
+              <span class="badge-number">03+</span>
+              <span class="badge-label">Años</span>
+            </div>
+            <div class="badge-orbital-ring"></div>
+            <div class="badge-orbital-ring ring-2"></div>
+          </div>
+          
+          <!-- Partículas orbitando la imagen -->
+          <div class="orbit-particle p-1"></div>
+          <div class="orbit-particle p-2"></div>
+          <div class="orbit-particle p-3"></div>
+          <div class="orbit-particle p-4"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Equipo Section Neón -->
+<section id="equipo" class="team-section-neon hidden">
+  <!-- Fondo de energía -->
+  <div class="team-energy-bg">
+    <div class="energy-wave wave-1"></div>
+    <div class="energy-wave wave-2"></div>
+  </div>
+
+  <div class="container position-relative">
+    <!-- Header -->
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center mb-5">
+        <span class="section-badge-neon">
+          <span class="badge-dot-left"></span>
+          NUESTRO EQUIPO
+          <span class="badge-dot-right"></span>
+        </span>
+        <h2 class="section-title-neon mb-4">
+          Profesionales en <span class="text-highlight">Desarrollo</span>
+        </h2>
+        <div class="title-underline"></div>
+        <p class="section-subtitle-neon">
+          Conoce al talentoso equipo detrás de <span class="brand-highlight">JW Devs</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Grid del equipo (2 miembros centrados) -->
+    <div class="row justify-content-center g-4">
+      <!-- Miembro 1: Jayro Rojas -->
+      <div class="col-md-6 col-lg-5">
+        <div class="team-member-card">
+          <div class="member-image-wrapper">
+            <div class="member-image-ring ring-cyan"></div>
+            <div class="member-image-frame frame-cyan">
+              <img src="img/team/team_3.jpg" alt="Jayro Rojas" class="member-image">
+              <div class="member-image-overlay"></div>
+            </div>
+            
+            <!-- Redes sociales flotantes -->
+            <div class="member-social">
+              <a href="#" class="social-link" data-platform="github" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="social-link" data-platform="linkedin" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-link" data-platform="twitter" title="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            
+            <!-- Badge de rol -->
+            <div class="member-role-badge badge-cyan">
+              <i class="fas fa-cloud"></i> DevOps
+            </div>
+          </div>
+          
+          <div class="member-info">
+            <h4 class="member-name">Jayro Rojas</h4>
+            <p class="member-role member-role-cyan">Especialista en DevOps</p>
+            <div class="member-divider divider-cyan"></div>
+            <p class="member-bio">Experto en infraestructura cloud, pipelines de despliegue continuo y automatización de procesos.</p>
+            
+            <!-- Skills -->
+            <div class="member-skills">
+              <span class="skill-dot" style="background: var(--neon-cyan);"></span>
+              <span class="skill-dot" style="background: var(--neon-blue);"></span>
+              <span class="skill-dot" style="background: #fff;"></span>
+              <span class="skill-dot" style="background: var(--neon-magenta);"></span>
+            </div>
+            
+            <!-- Tech tags -->
+            <div class="member-tech-tags">
+              <span class="mini-tag">Docker</span>
+              <span class="mini-tag">AWS</span>
+              <span class="mini-tag">CI/CD</span>
+              <span class="mini-tag">Kubernetes</span>
+            </div>
+          </div>
+          
+          <!-- Borde neón animado -->
+          <div class="card-neon-border border-cyan"></div>
+        </div>
+      </div>
+
+      <!-- Miembro 2: Jamyl Luis -->
+      <div class="col-md-6 col-lg-5">
+        <div class="team-member-card">
+          <div class="member-image-wrapper">
+            <div class="member-image-ring ring-magenta"></div>
+            <div class="member-image-frame frame-magenta">
+              <img src="img/team/team_4.jpg" alt="Jamyl Luis" class="member-image">
+              <div class="member-image-overlay"></div>
+            </div>
+            
+            <!-- Redes sociales flotantes -->
+            <div class="member-social social-magenta">
+              <a href="#" class="social-link" data-platform="github" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="social-link" data-platform="linkedin" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-link" data-platform="instagram" title="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            
+            <!-- Badge de rol -->
+            <div class="member-role-badge badge-magenta">
+              <i class="fas fa-mobile-alt"></i> Mobile
+            </div>
+          </div>
+          
+          <div class="member-info">
+            <h4 class="member-name">Jamyl Luis</h4>
+            <p class="member-role member-role-magenta">Desarrollador Mobile</p>
+            <div class="member-divider divider-magenta"></div>
+            <p class="member-bio">Crea aplicaciones nativas e híbridas para iOS y Android con Flutter y React Native.</p>
+            
+            <!-- Skills -->
+            <div class="member-skills">
+              <span class="skill-dot" style="background: var(--neon-magenta);"></span>
+              <span class="skill-dot" style="background: var(--neon-cyan);"></span>
+              <span class="skill-dot" style="background: #fff;"></span>
+              <span class="skill-dot" style="background: var(--neon-green);"></span>
+            </div>
+            
+            <!-- Tech tags -->
+            <div class="member-tech-tags">
+              <span class="mini-tag">Flutter</span>
+              <span class="mini-tag">React Native</span>
+              <span class="mini-tag">Firebase</span>
+              <span class="mini-tag">Kotlin</span>
+            </div>
+          </div>
+          
+          <!-- Borde neón animado -->
+          <div class="card-neon-border border-magenta"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+ <!-- Testimonios Section Neón -->
+<section class="testimonials-section-neon">
+  <!-- Fondo con partículas -->
+  <div class="testimonial-particles" id="testimonialParticles"></div>
+  
+  <div class="container position-relative">
+    <!-- Header -->
+    <div class="text-center mb-5 pt-5">
+      <span class="section-badge-neon">
+        <span class="badge-dot-left"></span>
+        TESTIMONIOS
+        <span class="badge-dot-right"></span>
+      </span>
+      <h2 class="section-title-neon">
+        Lo que dicen <span class="text-highlight">nuestros clientes</span>
+      </h2>
+      <div class="title-underline"></div>
+      <p class="section-subtitle-neon">
+        La satisfacción de nuestros clientes es nuestra mejor carta de presentación.
+      </p>
+    </div>
+
+    <!-- Grid de testimonios -->
+    <div class="row g-4">
+      <!-- Testimonio 1 -->
+      <div class="col-md-4">
+        <div class="testimonial-card-neon" data-testimonial="1">
+          <!-- Comillas decorativas -->
+          <div class="quote-icon">
+            <i class="fas fa-quote-right"></i>
+          </div>
+          
+          <!-- Contenido -->
+          <div class="testimonial-content">
+            <!-- Estrellas -->
+            <div class="testimonial-stars">
+              <i class="fas fa-star star-neon"></i>
+              <i class="fas fa-star star-neon"></i>
+              <i class="fas fa-star star-neon"></i>
+              <i class="fas fa-star star-neon"></i>
+              <i class="fas fa-star star-neon"></i>
+            </div>
+            
+            <!-- Texto del testimonio -->
+            <p class="testimonial-text">
+              "JW Devs transformó completamente nuestro e-commerce. En solo 6 meses duplicamos nuestras ventas online gracias a su plataforma optimizada y fácil de usar."
+            </p>
+            
+            <!-- Línea divisoria -->
+            <div class="testimonial-divider"></div>
+            
+            <!-- Info del cliente -->
+            <div class="client-info">
+              <div class="client-avatar-wrapper">
+                <div class="avatar-ring"></div>
+                <img src="img/testimonials/client1.jpg" alt="Carlos Méndez" class="client-avatar">
+                <div class="avatar-glow"></div>
+              </div>
+              <div class="client-details">
+                <h5 class="client-name">Carlos Méndez</h5>
+                <span class="client-role">CEO, ModaExpress</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Borde neón -->
+          <div class="card-neon-border"></div>
+        </div>
+      </div>
+
+      <!-- Testimonio 2 -->
+      <div class="col-md-4">
+        <div class="testimonial-card-neon" data-testimonial="2">
+          <div class="quote-icon">
+            <i class="fas fa-quote-right"></i>
+          </div>
+          
+          <div class="testimonial-content">
+            <div class="testimonial-stars">
+              <i class="fas fa-star star-neon"></i>
+              <i class="fas fa-star star-neon"></i>
+              <i class="fas fa-star star-neon"></i>
+              <i class="fas fa-star star-neon"></i>
+              <i class="fas fa-star star-neon"></i>
+            </div>
+            
+            <p class="testimonial-text">
+              "La aplicación móvil que desarrollaron superó todas nuestras expectativas. El equipo de JW Devs demostró un profundo conocimiento del sector salud y sus regulaciones."
+            </p>
+            
+            <div class="testimonial-divider"></div>
+            
+            <div class="client-info">
+              <div class="client-avatar-wrapper">
+                <div class="avatar-ring ring-magenta"></div>
+                <img src="img/testimonials/client2.jpg" alt="Ana Rodríguez" class="client-avatar">
+                <div class="avatar-glow glow-magenta"></div>
+              </div>
+              <div class="client-details">
+                <h5 class="client-name">Ana Rodríguez</h5>
+                <span class="client-role">Directora de TI, VitalCare</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card-neon-border border-magenta"></div>
+        </div>
+      </div>
+
+      <!-- Testimonio 3 -->
+      <div class="col-md-4">
+        <div class="testimonial-card-neon" data-testimonial="3">
+          <div class="quote-icon">
+            <i class="fas fa-quote-right"></i>
+          </div>
+          
+          <div class="testimonial-content">
+            <div class="testimonial-stars">
+              <i class="fas fa-star star-neon"></i>
+              <i class="fas fa-star star-neon"></i>
+              <i class="fas fa-star star-neon"></i>
+              <i class="fas fa-star star-neon"></i>
+              <i class="fas fa-star-half-alt star-neon"></i>
+            </div>
+            
+            <p class="testimonial-text">
+              "El sistema ERP que implementaron ha optimizado nuestros procesos en un 40%. Su enfoque en entender nuestro negocio antes de desarrollar fue clave para el éxito."
+            </p>
+            
+            <div class="testimonial-divider divider-yellow"></div>
+            
+            <div class="client-info">
+              <div class="client-avatar-wrapper">
+                <div class="avatar-ring ring-yellow"></div>
+                <img src="img/testimonials/client3.jpg" alt="Luis Fernández" class="client-avatar">
+                <div class="avatar-glow glow-yellow"></div>
+              </div>
+              <div class="client-details">
+                <h5 class="client-name">Luis Fernández</h5>
+                <span class="client-role">Gerente General, GrupoIndustrial</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card-neon-border border-yellow"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contacto Section Neón -->
+<section id="contacto" class="contact-section-neon">
+  <!-- Fondo con efecto de energía -->
+  <div class="contact-bg-energy">
+    <div class="contact-orb orb-left"></div>
+    <div class="contact-orb orb-right"></div>
+    <div class="contact-grid"></div>
+  </div>
+
+  <!-- Partículas -->
+  <div class="contact-particles" id="contactParticles"></div>
+
+  <div class="container position-relative">
+    <!-- Header -->
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center mb-5 pt-5">
+        <span class="section-badge-neon">
+          <span class="badge-dot-left"></span>
+          CONTÁCTANOS
+          <span class="badge-dot-right"></span>
+        </span>
+        <h2 class="section-title-neon">
+          ¿Listo para comenzar <span class="text-highlight">tu proyecto</span>?
+        </h2>
+        <div class="title-underline"></div>
+        <p class="section-subtitle-neon">
+          Completa el formulario y nos pondremos en contacto contigo en menos de <span class="highlight-time">24 horas</span> para discutir cómo podemos ayudarte.
+        </p>
+      </div>
+    </div>
+
+    <div class="row g-5">
+      <!-- Columna de información -->
+      <div class="col-lg-5">
+        <div class="contact-info-neon">
+          <!-- Tarjeta de información -->
+          <div class="info-card-neon">
+            <div class="info-card-header">
+              <i class="fas fa-headset header-icon-pulse"></i>
+              <h4>Información de Contacto</h4>
+            </div>
+            
+            <!-- Email -->
+            <a href="mailto:jwdevs2025@gmail.com" class="contact-info-item">
+              <div class="info-icon-wrapper">
+                <div class="info-icon-bg bg-cyan"></div>
+                <i class="fas fa-envelope info-icon"></i>
+                <div class="icon-pulse"></div>
+              </div>
+              <div class="info-content">
+                <span class="info-label">Correo Electrónico</span>
+                <span class="info-value">jwdevs2025@gmail.com</span>
+              </div>
+              <i class="fas fa-arrow-right info-arrow"></i>
+            </a>
+            
+            <!-- Teléfono -->
+            <a href="tel:+51920504763" class="contact-info-item">
+              <div class="info-icon-wrapper">
+                <div class="info-icon-bg bg-magenta"></div>
+                <i class="fas fa-phone-alt info-icon"></i>
+                <div class="icon-pulse"></div>
+              </div>
+              <div class="info-content">
+                <span class="info-label">Teléfono</span>
+                <span class="info-value">+51 920 504 763</span>
+              </div>
+              <i class="fas fa-arrow-right info-arrow"></i>
+            </a>
+            
+            <!-- Horario -->
+            <div class="contact-info-item no-link">
+              <div class="info-icon-wrapper">
+                <div class="info-icon-bg bg-yellow"></div>
+                <i class="fas fa-clock info-icon"></i>
+                <div class="icon-pulse"></div>
+              </div>
+              <div class="info-content">
+                <span class="info-label">Horario de Atención</span>
+                <span class="info-value">Lunes a Viernes: 9am - 6pm</span>
+              </div>
+            </div>
+            
+            <!-- Separador -->
+            <div class="info-separator">
+              <span class="separator-line"></span>
+              <span class="separator-text">SÍGUENOS</span>
+              <span class="separator-line"></span>
+            </div>
+            
+            <!-- Redes sociales -->
+            <div class="social-links-neon">
+              <a href="#" class="social-btn-neon" data-platform="facebook" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+                <span class="social-glow"></span>
+              </a>
+              <a href="#" class="social-btn-neon" data-platform="twitter" title="Twitter">
+                <i class="fab fa-twitter"></i>
+                <span class="social-glow"></span>
+              </a>
+              <a href="#" class="social-btn-neon" data-platform="linkedin" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+                <span class="social-glow"></span>
+              </a>
+              <a href="#" class="social-btn-neon" data-platform="github" title="GitHub">
+                <i class="fab fa-github"></i>
+                <span class="social-glow"></span>
+              </a>
+              <a href="#" class="social-btn-neon" data-platform="dribbble" title="Dribbble">
+                <i class="fab fa-dribbble"></i>
+                <span class="social-glow"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna del formulario -->
+      <div class="col-lg-7">
+        <div class="form-card-neon">
+          <form id="contactForm" action="https://formsubmit.co/jwdevs2025@gmail.com" method="POST" class="contact-form-neon">
+            <div class="row g-3">
+              <!-- Nombre -->
+              <div class="col-md-6">
+                <div class="input-group-neon">
+                  <label for="name" class="input-label">
+                    <i class="fas fa-user label-icon"></i>
+                    Nombre completo
+                  </label>
+                  <input type="text" class="input-field-neon" id="name" name="Nombre" placeholder="Tu nombre completo" required>
+                  <span class="input-border"></span>
+                </div>
+              </div>
+              
+              <!-- Email -->
+              <div class="col-md-6">
+                <div class="input-group-neon">
+                  <label for="email" class="input-label">
+                    <i class="fas fa-envelope label-icon"></i>
+                    Correo electrónico
+                  </label>
+                  <input type="email" class="input-field-neon" id="email" name="Correo" placeholder="tu@email.com" required>
+                  <span class="input-border"></span>
+                </div>
+              </div>
+              
+              <!-- Asunto -->
+              <div class="col-12">
+                <div class="input-group-neon">
+                  <label for="subject" class="input-label">
+                    <i class="fas fa-tag label-icon"></i>
+                    Asunto
+                  </label>
+                  <input type="text" class="input-field-neon" id="subject" name="Asunto" placeholder="¿En qué podemos ayudarte?" required>
+                  <span class="input-border"></span>
+                </div>
+              </div>
+              
+              <!-- Servicio -->
+              <div class="col-12">
+                <div class="input-group-neon">
+                  <label for="service" class="input-label">
+                    <i class="fas fa-cogs label-icon"></i>
+                    Servicio de interés
+                  </label>
+                  <select class="input-field-neon select-neon" id="service" name="Servicio de Interés">
+                    <option selected disabled>Selecciona un servicio</option>
+                    <option>Desarrollo Web</option>
+                    <option>Aplicaciones Móviles</option>
+                    <option>Diseño UI/UX</option>
+                    <option>Desarrollo Backend</option>
+                    <option>Cloud Computing</option>
+                    <option>Inteligencia Artificial</option>
+                    <option>Consultoría Tecnológica</option>
+                  </select>
+                  <span class="input-border"></span>
+                </div>
+              </div>
+              
+              <!-- Mensaje -->
+              <div class="col-12">
+                <div class="input-group-neon">
+                  <label for="message" class="input-label">
+                    <i class="fas fa-comment-alt label-icon"></i>
+                    Mensaje
+                  </label>
+                  <textarea class="input-field-neon textarea-neon" id="message" name="Mensaje" rows="5" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+                  <span class="input-border"></span>
+                </div>
+              </div>
+              
+              <!-- Checkbox privacidad -->
+              <div class="col-12">
+                <div class="checkbox-group-neon">
+                  <input class="checkbox-neon" type="checkbox" id="privacy" required>
+                  <label class="checkbox-label" for="privacy">
+                    <span class="checkbox-custom">
+                      <i class="fas fa-check check-icon"></i>
+                    </span>
+                    Acepto la <a href="#" class="privacy-link">Política de Privacidad</a>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Campos ocultos -->
+              <input type="hidden" name="_next" value="https://jwdevs1.github.io/jwdevs/#contacto">
+              <input type="hidden" name="_captcha" value="false">
+
+              <!-- Botón enviar -->
+              <div class="col-12">
+                <button type="submit" class="submit-btn-neon">
+                  <span class="submit-content">
+                    <i class="fas fa-paper-plane submit-icon"></i>
+                    Enviar Mensaje
+                  </span>
+                  <span class="submit-glow"></span>
+                  <span class="submit-scan"></span>
+                </button>
+              </div>
+            </div>
+          </form>
+          
+          <!-- Borde neón del formulario -->
+          <div class="form-border-glow"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Footer Neón -->
+<footer class="footer-neon">
+  <!-- Línea de energía superior -->
+  <div class="footer-energy-line"></div>
+  
+  <!-- Grid de fondo -->
+  <div class="footer-grid-bg"></div>
+  
+  <div class="container position-relative">
+    <div class="row g-5">
+      <!-- Columna 1: Logo y descripción -->
+      <div class="col-lg-4">
+        <div class="footer-brand">
+          <a href="#" class="footer-logo">
+            <span class="logo-bracket">&lt;</span>
+            <span class="logo-text">
+              <span class="text-cyan">JW</span><span class="text-white">Devs</span>
+            </span>
+            <span class="logo-bracket">/&gt;</span>
+            <span class="logo-glow"></span>
+          </a>
+        </div>
+        <p class="footer-description">
+          Transformamos ideas en soluciones digitales innovadoras que impulsan el crecimiento de tu negocio en la era digital.
+        </p>
+        <div class="footer-social">
+          <a href="#" class="footer-social-link" data-platform="facebook" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+            <span class="social-ring"></span>
+          </a>
+          <a href="#" class="footer-social-link" data-platform="twitter" title="Twitter">
+            <i class="fab fa-twitter"></i>
+            <span class="social-ring"></span>
+          </a>
+          <a href="#" class="footer-social-link" data-platform="linkedin" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+            <span class="social-ring"></span>
+          </a>
+          <a href="#" class="footer-social-link" data-platform="github" title="GitHub">
+            <i class="fab fa-github"></i>
+            <span class="social-ring"></span>
+          </a>
+          <a href="#" class="footer-social-link" data-platform="dribbble" title="Dribbble">
+            <i class="fab fa-dribbble"></i>
+            <span class="social-ring"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Columna 2: Servicios -->
+      <div class="col-lg-2 col-md-4">
+        <h5 class="footer-title">
+          <i class="fas fa-cogs title-icon"></i>
+          Servicios
+          <span class="title-underline-footer"></span>
+        </h5>
+        <ul class="footer-links">
+          <li>
+            <a href="#servicios" class="footer-link">
+              <i class="fas fa-chevron-right link-arrow"></i>
+              Desarrollo Web
+            </a>
+          </li>
+          <li>
+            <a href="#servicios" class="footer-link">
+              <i class="fas fa-chevron-right link-arrow"></i>
+              Apps Móviles
+            </a>
+          </li>
+          <li>
+            <a href="#servicios" class="footer-link">
+              <i class="fas fa-chevron-right link-arrow"></i>
+              Diseño UI/UX
+            </a>
+          </li>
+          <li>
+            <a href="#servicios" class="footer-link">
+              <i class="fas fa-chevron-right link-arrow"></i>
+              Backend & API
+            </a>
+          </li>
+          <li>
+            <a href="#servicios" class="footer-link">
+              <i class="fas fa-chevron-right link-arrow"></i>
+              Cloud Computing
+            </a>
+          </li>
+          <li>
+            <a href="#servicios" class="footer-link">
+              <i class="fas fa-chevron-right link-arrow"></i>
+              IA & Data
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Columna 3: Empresa -->
+      <div class="col-lg-2 col-md-4">
+        <h5 class="footer-title">
+          <i class="fas fa-building title-icon"></i>
+          Empresa
+          <span class="title-underline-footer"></span>
+        </h5>
+        <ul class="footer-links">
+          <li>
+            <a href="#nosotros" class="footer-link">
+              <i class="fas fa-chevron-right link-arrow"></i>
+              Sobre Nosotros
+            </a>
+          </li>
+          <li>
+            <a href="#equipo" class="footer-link">
+              <i class="fas fa-chevron-right link-arrow"></i>
+              Equipo
+            </a>
+          </li>
+          <li>
+            <a href="#proyectos" class="footer-link">
+              <i class="fas fa-chevron-right link-arrow"></i>
+              Proyectos
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">
+              <i class="fas fa-chevron-right link-arrow"></i>
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">
+              <i class="fas fa-chevron-right link-arrow"></i>
+              Carreras
+            </a>
+          </li>
+          <li>
+            <a href="#contacto" class="footer-link">
+              <i class="fas fa-chevron-right link-arrow"></i>
+              Contacto
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Columna 4: Newsletter -->
+      <div class="col-lg-4 col-md-4">
+        <h5 class="footer-title">
+          <i class="fas fa-paper-plane title-icon"></i>
+          Suscríbete
+          <span class="title-underline-footer"></span>
+        </h5>
+        <p class="footer-newsletter-text">
+          Recibe las últimas noticias y actualizaciones directamente en tu bandeja de entrada.
+        </p>
+        <form class="subscribe-form-neon">
+          <div class="subscribe-input-wrapper">
+            <input 
+              type="email" 
+              class="subscribe-input" 
+              placeholder="Tu correo electrónico" 
+              required
+            >
+            <button class="subscribe-btn" type="submit">
+              <i class="fas fa-paper-plane"></i>
+              <span>Suscribir</span>
+            </button>
+            <span class="subscribe-border"></span>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Separador -->
+    <div class="footer-separator">
+      <div class="separator-glow"></div>
+    </div>
+
+    <!-- Barra inferior -->
+    <div class="footer-bottom">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <p class="footer-copy">
+            &copy; 2025 <span class="copy-highlight">JW Devs</span>. Todos los derechos reservados.
+          </p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <div class="footer-extra-links">
+            <a href="#" class="extra-link">Política de Privacidad</a>
+            <span class="link-separator">|</span>
+            <a href="#" class="extra-link">Términos de Servicio</a>
+            <span class="link-separator">|</span>
+            <a href="#" class="extra-link">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Partículas del footer -->
+  <div class="footer-particles" id="footerParticles"></div>
+</footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Tu JS personalizado -->
+  <script src="js/main.js"></script>
+
+   <!-- JavaScript para el Navbar -->
+  <script>
+  // Scroll effect para el navbar
+  window.addEventListener('scroll', function() {
+    const nav = document.getElementById('neonNav');
+    if (window.scrollY > 50) {
+      nav.classList.add('scrolled');
+    } else {
+      nav.classList.remove('scrolled');
+    }
+  });
+
+  // Active link detection
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.neon-link');
+
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 100;
+      if (window.scrollY >= sectionTop) {
+        current = section.getAttribute('id');
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === `#${current}`) {
+        link.classList.add('active');
+      }
+    });
+  });
+
+  // Efecto de partículas en hover (opcional)
+  document.querySelectorAll('.neon-link').forEach(link => {
+    link.addEventListener('mouseenter', function(e) {
+      for (let i = 0; i < 3; i++) {
+        createParticle(this);
+      }
+    });
+  });
+
+  function createParticle(element) {
+    const particle = document.createElement('span');
+    particle.className = 'neon-nav-particle';
+    particle.style.left = Math.random() * 100 + '%';
+    particle.style.animationDelay = Math.random() * 0.5 + 's';
+    element.appendChild(particle);
+    
+    setTimeout(() => {
+      particle.remove();
+    }, 2000);
+  }
+</script>
+  <!-- JavaScript para el Hero -->
+<script>
+  // ===================== EFECTO TYPEWRITER =====================
+  const typingText = document.querySelector('.typing-text');
+  const phrases = [
+    'Soluciones tecnológicas innovadoras diseñadas para impulsar el crecimiento de tu negocio en la era digital.',
+    'Creamos experiencias digitales únicas que transforman la manera de hacer negocios.'
+  ];
+  let phraseIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+
+  function typeWriter() {
+    const currentPhrase = phrases[phraseIndex];
+    
+    if (!isDeleting) {
+      typingText.textContent = currentPhrase.substring(0, charIndex + 1);
+      charIndex++;
+      
+      if (charIndex === currentPhrase.length) {
+        isDeleting = true;
+        setTimeout(typeWriter, 2000);
+        return;
+      }
+    } else {
+      typingText.textContent = currentPhrase.substring(0, charIndex - 1);
+      charIndex--;
+      
+      if (charIndex === 0) {
+        isDeleting = false;
+        phraseIndex = (phraseIndex + 1) % phrases.length;
+      }
+    }
+    
+    setTimeout(typeWriter, isDeleting ? 30 : 60);
+  }
+
+  typeWriter();
+
+  // ===================== CONTADOR DE ESTADÍSTICAS =====================
+  function animateStats() {
+    const statNumbers = document.querySelectorAll('.stat-number');
+    
+    statNumbers.forEach(stat => {
+      const target = parseInt(stat.getAttribute('data-target'));
+      const duration = 2000;
+      const step = target / (duration / 16);
+      let current = 0;
+      
+      const updateCounter = () => {
+        current += step;
+        if (current < target) {
+          stat.textContent = Math.floor(current) + '+';
+          requestAnimationFrame(updateCounter);
+        } else {
+          stat.textContent = target + '+';
+        }
+      };
+      
+      updateCounter();
+    });
+  }
+
+  // Iniciar animación cuando el hero es visible
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateStats();
+        observer.unobserve(entry.target);
+      }
+    });
+  });
+
+  const heroStats = document.querySelector('.hero-stats');
+  if (heroStats) {
+    observer.observe(heroStats);
+  }
+
+  // ===================== PARTÍCULAS DE FONDO =====================
+  function createParticles() {
+    const container = document.getElementById('particlesContainer');
+    const particleCount = 50;
+    
+    for (let i = 0; i < particleCount; i++) {
+      const particle = document.createElement('div');
+      particle.className = 'particle';
+      
+      const size = Math.random() * 3 + 1;
+      particle.style.width = size + 'px';
+      particle.style.height = size + 'px';
+      particle.style.left = Math.random() * 100 + '%';
+      particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+      particle.style.animationDelay = Math.random() * 10 + 's';
+      
+      // Colores aleatorios entre cyan y magenta
+      const colors = ['var(--neon-cyan)', 'var(--neon-magenta)', '#ffffff'];
+      particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+      
+      container.appendChild(particle);
+    }
+  }
+
+  createParticles();
+
+  // ===================== EFECTO PARALLAX EN HERO =====================
+  window.addEventListener('mousemove', (e) => {
+    const heroContent = document.querySelector('.hero-content');
+    const heroImage = document.querySelector('.hero-image-wrapper');
+    
+    if (heroContent && heroImage) {
+      const moveX = (e.clientX - window.innerWidth / 2) * 0.02;
+      const moveY = (e.clientY - window.innerHeight / 2) * 0.02;
+      
+      heroContent.style.transform = `translate(${moveX}px, ${moveY}px)`;
+      heroImage.style.transform = `translate(${-moveX}px, ${-moveY}px)`;
+    }
+  });
+</script>
+
+  <!-- JavaScript para el Servicios -->
+<script>
+  // ===================== EFECTO TILT 3D EN CARDS =====================
+  document.querySelectorAll('.service-card-neon').forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      
+      const rotateX = (y - centerY) / 15;
+      const rotateY = (centerX - x) / 15;
+      
+      card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
+    });
+    
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
+    });
+  });
+
+  // ===================== PARTÍCULAS DE SECCIÓN =====================
+  function createServiceParticles() {
+    const container = document.getElementById('servicesParticles');
+    if (!container) return;
+    
+    const particleCount = 30;
+    
+    for (let i = 0; i < particleCount; i++) {
+      const particle = document.createElement('div');
+      particle.className = 'particle';
+      
+      particle.style.left = Math.random() * 100 + '%';
+      particle.style.top = Math.random() * 100 + '%';
+      particle.style.width = (Math.random() * 3 + 1) + 'px';
+      particle.style.height = particle.style.width;
+      particle.style.animationDuration = (Math.random() * 8 + 6) + 's';
+      particle.style.animationDelay = Math.random() * 5 + 's';
+      
+      const colors = ['var(--neon-cyan)', 'var(--neon-magenta)', 'rgba(255,255,255,0.5)'];
+      particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+      
+      container.appendChild(particle);
+    }
+  }
+
+  createServiceParticles();
+
+  // ===================== ANIMACIÓN AL HACER SCROLL =====================
+  const serviceCards = document.querySelectorAll('.service-card-neon');
+  
+  const serviceObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+        entry.target.style.transition = `all 0.6s ease ${index * 0.1}s`;
+        serviceObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  serviceCards.forEach(card => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateY(50px)';
+    serviceObserver.observe(card);
+  });
+</script>
+
+ <!-- JavaScript para el Proceso -->
+
+<script>
+  // ===================== ANIMACIÓN DE PASOS =====================
+  const processSteps = document.querySelectorAll('.process-step-neon');
+  
+  const processObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // Animar progreso
+        setTimeout(() => {
+          entry.target.classList.add('animate');
+        }, 300);
+        
+        // Animar entrada
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+        entry.target.style.transition = 'all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+        
+        processObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+
+  processSteps.forEach((step, index) => {
+    step.style.opacity = '0';
+    step.style.transform = 'translateY(50px)';
+    step.style.transitionDelay = `${index * 0.15}s`;
+    processObserver.observe(step);
+  });
+
+  // ===================== PARTÍCULAS DE ENERGÍA =====================
+  function createEnergyParticles() {
+    const container = document.getElementById('energyParticles');
+    if (!container) return;
+    
+    const particleCount = 40;
+    
+    for (let i = 0; i < particleCount; i++) {
+      const particle = document.createElement('div');
+      particle.className = 'energy-particle';
+      
+      particle.style.left = Math.random() * 100 + '%';
+      particle.style.top = Math.random() * 100 + '%';
+      particle.style.animationDelay = Math.random() * 4 + 's';
+      particle.style.animationDuration = (Math.random() * 4 + 3) + 's';
+      
+      const colors = ['var(--neon-cyan)', 'var(--neon-magenta)', 'var(--neon-yellow)'];
+      particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+      
+      container.appendChild(particle);
+    }
+  }
+
+  createEnergyParticles();
+
+  // ===================== EFECTO HOVER EN PASOS =====================
+  processSteps.forEach(step => {
+    step.addEventListener('mouseenter', function() {
+      // Intensificar partículas cercanas
+      const particles = document.querySelectorAll('.energy-particle');
+      particles.forEach(particle => {
+        particle.style.animationDuration = (Math.random() * 2 + 1) + 's';
+      });
+    });
+    
+    step.addEventListener('mouseleave', function() {
+      const particles = document.querySelectorAll('.energy-particle');
+      particles.forEach(particle => {
+        particle.style.animationDuration = (Math.random() * 4 + 3) + 's';
+      });
+    });
+  });
+</script>
+
+<!-- JavaScript para el Proyectos -->
+
+<script>
+  // ===================== FILTRO DE PROYECTOS =====================
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const projectItems = document.querySelectorAll('.project-item');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Remover active de todos
+      filterBtns.forEach(b => b.classList.remove('active'));
+      // Agregar active al clickeado
+      btn.classList.add('active');
+      
+      const filter = btn.getAttribute('data-filter');
+      
+      projectItems.forEach(item => {
+        item.style.transition = 'all 0.4s ease';
+        
+        if (filter === 'all' || item.getAttribute('data-category').includes(filter)) {
+          item.style.display = 'block';
+          setTimeout(() => {
+            item.style.opacity = '1';
+            item.style.transform = 'scale(1)';
+          }, 50);
+        } else {
+          item.style.opacity = '0';
+          item.style.transform = 'scale(0.9)';
+          setTimeout(() => {
+            item.style.display = 'none';
+          }, 400);
+        }
+      });
+    });
+  });
+
+  // ===================== ANIMACIÓN DE ENTRADA =====================
+  const projectObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, index * 100);
+        projectObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  projectItems.forEach(item => {
+    projectObserver.observe(item);
+  });
+
+  // ===================== PARTÍCULAS DE FONDO =====================
+  function createProjectParticles() {
+    const container = document.getElementById('projectsParticles');
+    if (!container) return;
+    
+    for (let i = 0; i < 20; i++) {
+      const particle = document.createElement('div');
+      particle.style.cssText = `
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        background: ${Math.random() > 0.5 ? 'var(--neon-cyan)' : 'var(--neon-magenta)'};
+        border-radius: 50%;
+        left: ${Math.random() * 100}%;
+        top: ${Math.random() * 100}%;
+        filter: blur(1px);
+        animation: projectParticle ${Math.random() * 8 + 6}s linear infinite;
+        animation-delay: ${Math.random() * 4}s;
+        pointer-events: none;
+      `;
+      container.appendChild(particle);
+    }
+    
+    // Crear keyframes
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes projectParticle {
+        0% { transform: translateY(0) scale(1); opacity: 0; }
+        10% { opacity: 1; }
+        50% { transform: translateY(-60px) scale(2); opacity: 0.5; }
+        90% { opacity: 1; }
+        100% { transform: translateY(-120px) scale(0); opacity: 0; }
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  createProjectParticles();
+</script>
+
+<!-- JavaScript para el Tecnologicas -->
+
+<script>
+  // ===================== ANIMACIÓN DE BARRAS DE NIVEL =====================
+  const techCategories = document.querySelectorAll('.tech-category-neon');
+  
+  const techObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const levelBars = entry.target.querySelectorAll('.level-bar');
+        levelBars.forEach((bar, index) => {
+          const targetWidth = bar.style.width;
+          bar.style.width = '0%';
+          setTimeout(() => {
+            bar.style.width = targetWidth;
+          }, index * 100);
+        });
+        techObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+
+  techCategories.forEach(cat => {
+    techObserver.observe(cat);
+  });
+
+  // ===================== ANIMACIÓN DE ENTRADA =====================
+  const techCards = document.querySelectorAll('.tech-category-neon, .tech-card-other');
+  
+  const entranceObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+        entry.target.style.transition = `all 0.6s ease ${index * 0.15}s`;
+        entranceObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  techCards.forEach(card => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateY(40px)';
+    entranceObserver.observe(card);
+  });
+
+  // ===================== EFECTO HOVER EN BADGES =====================
+  document.querySelectorAll('.tech-badge-neon').forEach(badge => {
+    badge.addEventListener('mouseenter', function() {
+      this.style.transition = 'all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+    });
+  });
+</script>
+
+<!-- JavaScript para el Equipo -->
+
+<script>
+  // ===================== ANIMACIÓN DE FEATURES AL SCROLL =====================
+  const featureCards = document.querySelectorAll('.feature-card-neon');
+  
+  const featureObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateX(0)';
+        entry.target.style.transition = `all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) ${index * 0.15}s`;
+        featureObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+
+  featureCards.forEach(card => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateX(-30px)';
+    featureObserver.observe(card);
+  });
+
+  // ===================== EFECTO PARALLAX EN LA IMAGEN =====================
+  const aboutImage = document.querySelector('.about-image-wrapper');
+  
+  if (aboutImage) {
+    window.addEventListener('mousemove', (e) => {
+      const rect = aboutImage.getBoundingClientRect();
+      const centerX = rect.left + rect.width / 2;
+      const centerY = rect.top + rect.height / 2;
+      
+      const moveX = (e.clientX - centerX) * 0.02;
+      const moveY = (e.clientY - centerY) * 0.02;
+      
+      aboutImage.style.transform = `perspective(1000px) rotateY(${moveX}deg) rotateX(${-moveY}deg)`;
+    });
+  }
+
+  // ===================== PARTICLES ORBIT UPDATE =====================
+  function updateOrbitParticles() {
+    const wrapper = document.querySelector('.about-image-wrapper');
+    if (!wrapper) return;
+    
+    const rect = wrapper.getBoundingClientRect();
+    const centerX = rect.width / 2;
+    const centerY = rect.height / 2;
+    const radius = Math.max(rect.width, rect.height) * 0.6;
+    
+    document.querySelectorAll('.orbit-particle').forEach((particle, index) => {
+      const angle = (Date.now() * 0.001 + index * Math.PI / 2) % (Math.PI * 2);
+      const x = centerX + Math.cos(angle) * radius;
+      const y = centerY + Math.sin(angle) * radius;
+      
+      particle.style.left = x + 'px';
+      particle.style.top = y + 'px';
+    });
+    
+    requestAnimationFrame(updateOrbitParticles);
+  }
+
+  updateOrbitParticles();
+</script>
+<!-- JavaScript para el desarrollo -->
+<script>
+  // ===================== TOGGLE EQUIPO =====================
+  $('#toggleTeamBtn').click(function(e) {
+    e.preventDefault();
+    
+    const teamSection = $('#equipo');
+    
+    if (teamSection.hasClass('hidden')) {
+      teamSection.removeClass('hidden').addClass('visible');
+      $(this).find('.btn-content').html('<i class="fas fa-eye-slash me-2"></i>Ocultar equipo');
+      
+      // Scroll suave
+      $('html, body').animate({
+        scrollTop: teamSection.offset().top - 80
+      }, 600);
+      
+      // Inicializar carrusel si es necesario
+      setTimeout(() => {
+        initTeamCarousel();
+      }, 300);
+    } else {
+      teamSection.removeClass('visible').addClass('hidden');
+      $(this).find('.btn-content').html('<i class="fas fa-users me-2"></i>Conoce nuestro equipo');
+    }
+  });
+
+  // ===================== INICIALIZAR CAROUSEL =====================
+  let teamCarouselInitialized = false;
+  
+  function initTeamCarousel() {
+    if (teamCarouselInitialized) return;
+    
+    const carousel = $('#teamCarousel');
+    
+    carousel.owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: false,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 3500,
+      autoplayHoverPause: true,
+      smartSpeed: 800,
+      center: false,
+      responsive: {
+        0: { items: 1 },
+        576: { items: 2 },
+        768: { items: 3 },
+        992: { items: 3 },
+        1200: { items: 4 }
+      }
+    });
+    
+    // Controles personalizados
+    $('#teamPrev').click(() => carousel.trigger('prev.owl.carousel'));
+    $('#teamNext').click(() => carousel.trigger('next.owl.carousel'));
+    
+    // Swipe en móvil
+    let touchStartX = 0;
+    
+    carousel.on('touchstart', (e) => {
+      touchStartX = e.originalEvent.touches[0].clientX;
+    });
+    
+    carousel.on('touchend', (e) => {
+      const touchEndX = e.originalEvent.changedTouches[0].clientX;
+      const diff = touchStartX - touchEndX;
+      
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) carousel.trigger('next.owl.carousel');
+        else carousel.trigger('prev.owl.carousel');
+      }
+    });
+    
+    teamCarouselInitialized = true;
+  }
+
+  // ===================== ANIMACIÓN DE ENTRADA DE CARDS =====================
+  const teamObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+        entry.target.style.transition = `all 0.6s ease ${index * 0.1}s`;
+        teamObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  document.querySelectorAll('.team-member-card').forEach(card => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateY(30px)';
+    teamObserver.observe(card);
+  });
+</script>
+
+<!-- JavaScript para el Clientes -->
+<script>
+  // ===================== PARTICLES DE FONDO =====================
+  function createTestimonialParticles() {
+    const container = document.getElementById('testimonialParticles');
+    if (!container) return;
+    
+    for (let i = 0; i < 25; i++) {
+      const particle = document.createElement('div');
+      particle.className = 'testimonial-particle';
+      
+      particle.style.left = Math.random() * 100 + '%';
+      particle.style.animationDuration = (Math.random() * 8 + 6) + 's';
+      particle.style.animationDelay = Math.random() * 5 + 's';
+      
+      const colors = ['var(--neon-cyan)', 'var(--neon-magenta)', 'rgba(255,255,255,0.5)'];
+      particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+      
+      container.appendChild(particle);
+    }
+  }
+
+  createTestimonialParticles();
+
+  // ===================== ANIMACIÓN DE ENTRADA =====================
+  const testimonialCards = document.querySelectorAll('.testimonial-card-neon');
+  
+  const testimonialObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, index * 150);
+        testimonialObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  testimonialCards.forEach(card => {
+    testimonialObserver.observe(card);
+  });
+
+  // ===================== EFECTO TILT EN CARDS =====================
+  testimonialCards.forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      
+      const rotateX = (y - centerY) / 20;
+      const rotateY = (centerX - x) / 20;
+      
+      card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
+    });
+    
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
+    });
+  });
+</script>
+
+<!-- JavaScript para el Contacto -->
+
+<script>
+  // ===================== PARTÍCULAS DE FONDO =====================
+  function createContactParticles() {
+    const container = document.getElementById('contactParticles');
+    if (!container) return;
+    
+    for (let i = 0; i < 30; i++) {
+      const particle = document.createElement('div');
+      particle.style.cssText = `
+        position: absolute;
+        width: ${Math.random() * 3 + 1}px;
+        height: ${Math.random() * 3 + 1}px;
+        background: ${['var(--neon-cyan)', 'var(--neon-magenta)', 'rgba(255,255,255,0.8)'][Math.floor(Math.random() * 3)]};
+        border-radius: 50%;
+        left: ${Math.random() * 100}%;
+        top: ${Math.random() * 100}%;
+        filter: blur(1px);
+        animation: contactParticle ${Math.random() * 6 + 4}s linear infinite;
+        animation-delay: ${Math.random() * 3}s;
+        pointer-events: none;
+      `;
+      container.appendChild(particle);
+    }
+    
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes contactParticle {
+        0% { transform: translateY(0) scale(1); opacity: 0; }
+        10% { opacity: 0.8; }
+        50% { transform: translateY(-50px) scale(2); }
+        90% { opacity: 0.8; }
+        100% { transform: translateY(-100px) scale(0); opacity: 0; }
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  createContactParticles();
+
+  // ===================== ANIMACIÓN DE INPUTS =====================
+  document.querySelectorAll('.input-field-neon').forEach(input => {
+    input.addEventListener('focus', function() {
+      this.parentElement.querySelector('.input-border').style.width = '80%';
+    });
+    
+    input.addEventListener('blur', function() {
+      if (!this.value) {
+        this.parentElement.querySelector('.input-border').style.width = '0';
+      }
+    });
+    
+    // Mantener borde si tiene valor
+    if (input.value) {
+      input.parentElement.querySelector('.input-border').style.width = '80%';
+    }
+  });
+
+  // ===================== FORM SUBMIT FEEDBACK =====================
+  const contactForm = document.getElementById('contactForm');
+  
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+      const submitBtn = this.querySelector('.submit-btn-neon');
+      
+      // Efecto visual en el botón
+      submitBtn.style.transform = 'scale(0.95)';
+      setTimeout(() => {
+        submitBtn.style.transform = 'scale(1)';
+      }, 200);
+      
+      // Cambiar texto temporalmente
+      const originalContent = submitBtn.querySelector('.submit-content').innerHTML;
+      submitBtn.querySelector('.submit-content').innerHTML = `
+        <i class="fas fa-spinner fa-spin"></i>
+        Enviando...
+      `;
+      
+      // Restaurar después de un tiempo (el formulario redirige)
+      setTimeout(() => {
+        submitBtn.querySelector('.submit-content').innerHTML = originalContent;
+      }, 5000);
+    });
+  }
+</script>
+
+<!-- JavaScript para el Footer -->
+
+<script>
+  // ===================== PARTÍCULAS DEL FOOTER =====================
+  function createFooterParticles() {
+    const container = document.getElementById('footerParticles');
+    if (!container) return;
+    
+    const particleCount = 20;
+    
+    for (let i = 0; i < particleCount; i++) {
+      const particle = document.createElement('div');
+      particle.className = 'footer-particle';
+      
+      particle.style.left = Math.random() * 100 + '%';
+      particle.style.animationDuration = (Math.random() * 8 + 8) + 's';
+      particle.style.animationDelay = Math.random() * 8 + 's';
+      
+      const colors = ['var(--neon-cyan)', 'var(--neon-magenta)', 'rgba(255,255,255,0.6)'];
+      particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+      
+      container.appendChild(particle);
+    }
+  }
+
+  createFooterParticles();
+
+  // ===================== NEWSLETTER SUBMIT =====================
+  const subscribeForm = document.querySelector('.subscribe-form-neon');
+  
+  if (subscribeForm) {
+    subscribeForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const input = this.querySelector('.subscribe-input');
+      const btn = this.querySelector('.subscribe-btn');
+      
+      if (input.value.trim() === '') {
+        // Efecto de shake en el input
+        input.style.animation = 'shake 0.5s ease';
+        setTimeout(() => {
+          input.style.animation = '';
+        }, 500);
+        return;
+      }
+      
+      // Feedback visual
+      const originalContent = btn.innerHTML;
+      btn.innerHTML = '<i class="fas fa-check"></i> ¡Gracias!';
+      btn.style.background = 'linear-gradient(135deg, #2ecc71, #27ae60)';
+      
+      // Limpiar input
+      input.value = '';
+      
+      // Restaurar botón
+      setTimeout(() => {
+        btn.innerHTML = originalContent;
+        btn.style.background = '';
+      }, 3000);
+    });
+  }
+
+  // Agregar keyframes para el shake
+  const shakeStyle = document.createElement('style');
+  shakeStyle.textContent = `
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-8px); }
+      50% { transform: translateX(8px); }
+      75% { transform: translateX(-4px); }
+    }
+  `;
+  document.head.appendChild(shakeStyle);
+</script>
+
+</body>
+</html>
